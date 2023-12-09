@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Firebase.DaftarActivity">
+
+    <ImageView
+        android:id="@+id/Gambar"
+        android:layout_width="321dp"
+        android:layout_height="356dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/img_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TeksDaftar"
+        android:layout_width="137dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="56dp"
+        android:gravity="right"
+        android:text="Daftar"
+        android:textColor="@color/Biru"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi data di bawah ini"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Gambar"
+        app:layout_constraintEnd_toEndOf="@+id/Gambar"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <EditText
+        android:id="@+id/InputNama"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_oval"
+        android:hint="Masukan Nama"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teks" />
+    <EditText
+        android:id="@+id/InputNomor"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_oval"
+        android:hint="Masukan Nomor"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputNama" />
+    <EditText
+        android:id="@+id/InputEmail"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_oval"
+        android:hint="Masukan Email"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputNomor" />
+    <EditText
+        android:id="@+id/InputUsername"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="20dp"
+        android:background="@drawable/edittext_oval"
+        android:hint="Masukan Username"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputEmail" />
+    <EditText
+        android:id="@+id/InputPassword"
+        android:layout_width="294dp"
+        android:layout_height="50dp"
+        android:paddingStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_oval"
+        android:hint="Masukan Password"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputUsername" />
+
+    <Button
+        android:id="@+id/BtnSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/Biru"
+        android:textColor="@color/white"
+        android:text="Daftar"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

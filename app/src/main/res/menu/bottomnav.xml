@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/home__1_"/>
+    <item
+        android:id="@+id/Diskusi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Diskusi"
+        android:icon="@drawable/konsul_1"/>
+    <item
+        android:id="@+id/Dokter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Dokter"
+        android:icon="@drawable/konsultasi"/>
+    <item
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile"
+        android:icon="@drawable/user__1_"/>
+</menu>

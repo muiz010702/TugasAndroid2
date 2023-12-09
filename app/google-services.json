@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "880751369087",
+    "project_id": "latihan-firebase1-87613",
+    "storage_bucket": "latihan-firebase1-87613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880751369087:android:983dbbf884d0048205d84a",
+        "android_client_info": {
+          "package_name": "com.example.tugasandroid2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdFq7VtOb4fccNovpRijkmj42y0xQq_Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880751369087:android:0877e642ae4cf2bf05d84a",
+        "android_client_info": {
+          "package_name": "com.example.tugasandroid2.Firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdFq7VtOb4fccNovpRijkmj42y0xQq_Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
